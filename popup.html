@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="flex margin">
+      <input id="interval-input" type="number" min="1000" step="1000" />
+      <button id="update">✔</button>
+    </div>
+    <div class="flex">
+      <button class="flex_btn" id="refresh">Begin Interval</button>
+      <button class="flex_btn secondary" id="clear">Clear</button>
+      <button class="flex_btn" id="trigger_once">Trigger</button>
+    </div>
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>

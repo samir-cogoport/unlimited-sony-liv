@@ -1,0 +1,62 @@
+body {
+  width: 480px;
+}
+
+button {
+  color: white;
+  background: #04aa6d;
+  border: 3px solid rgba(0, 0, 3, 0.315);
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: rgb(0, 0, 3);
+  color: #04aa6d;
+  border: 3px solid #343041;
+  cursor: pointer;
+}
+button:active {
+  border: 3px solid #04aa6d;
+  cursor: progress;
+}
+
+.secondary {
+  background-color: white;
+  color: green;
+  border: 3px solid;
+}
+
+.secondary:hover {
+  color: #e8e8e8;
+}
+
+input {
+  flex: 1;
+  height: 40px;
+  background: rgb(0, 0, 3);
+  border: 2px solid rgb(0, 0, 3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  caret-color: rgb(6, 247, 6);
+  color: white;
+}
+input:focus-visible {
+  outline: 2px solid #04aa6d;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 480px;
+}
+
+.flex_btn {
+  flex: 1;
+}
+
+.margin {
+  margin-bottom: 12px;
+}
