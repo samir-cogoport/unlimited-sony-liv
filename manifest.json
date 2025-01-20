@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Unlimited Free SonyLiv",
+  "version": "1.0",
+  "description": "Automate localStorage Clear and Refresh",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.sonyliv.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["https://www.sonyliv.com/*"]
+}
