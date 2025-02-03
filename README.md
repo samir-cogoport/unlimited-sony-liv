@@ -1,5 +1,5 @@
 # unlimited-sony-liv
-Extension for Chrome
+Browser Extension
 Watch free content without subscription
 
 ![Extension View](icons/view.png)
