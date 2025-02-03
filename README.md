@@ -1,5 +1,5 @@
 # unlimited-sony-liv
 Browser Extension
-Watch free content without subscription
+Watch free Live content without subscription
 
 ![Extension View](icons/view.png)
